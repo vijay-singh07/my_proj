@@ -1,0 +1,47 @@
+h3{
+text-shadow:4px 5px 5px powderblue;
+border-bottom:2px black solid;
+text color: white;
+background:20px powderblue;
+}
+header a:hover{
+	color: yellow;
+}
+
+div a:hover{
+	color:red;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: solid black;
+  text-align: center;
+}
+header {
+  width: 200px;
+	position: fixed;
+}
+header li{
+	display: inline;
+
+}
+header a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+header a:hover {
+  background-color: #ccc;
+}
+
+header a.active {
+  background-color: #4CAF50;
+  color: white;
+}
